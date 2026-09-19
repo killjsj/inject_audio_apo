@@ -1,0 +1,25 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "audioenginebaseapo.idl";
+
+[
+    uuid(87DBA1B1-9014-4499-A3F6-A24C622DEAFF),
+    version(1.0)
+]
+    library StandardApoDlllib
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(5F2EC245-A357-4858-80A2-5E575C904D6F)
+    ]
+    coclass InjectAudioEFX
+    {
+        [default] interface IAudioProcessingObject;
+        interface IAudioProcessingObjectRT;
+        interface IAudioProcessingObjectConfiguration;
+        interface IAudioSystemEffects;
+    };
+
+
+}

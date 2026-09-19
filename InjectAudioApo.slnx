@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="ApoTester/ApoTester.vcxproj" Id="099e62cb-2176-42e3-87b6-d838e743fa6a" />
+  <Project Path="Apo\InjectAudioApo.vcxproj" Id="47358ad6-a48a-465b-965f-0a66f8bdfe23" />
+  <Project Path="Setup\InjectAudioApoSetup.vcxproj" Id="6f2b8a41-9c3d-4e7a-b1f5-2d8c4a6e9b03" />
+</Solution>
